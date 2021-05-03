@@ -160,6 +160,7 @@ Screen:
 class Main(MDApp):
 
     def build(self):
+        self.theme_cls.theme_style = "Dark"
         self.front = Builder.load_string(kv2)
         return self.front
 
